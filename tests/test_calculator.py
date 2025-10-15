@@ -14,7 +14,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(multiply(0, 4), 0)
         self.assertEqual(add(1_000_000, 2_000_000), 3_000_000)
 
-    # Uncomment the line below if implemented
+    # Comment the line below if implemented
     @unittest.skip("Skipping bonus exercises for calculator")
     def test_bonuses(self):
         # Input validation
