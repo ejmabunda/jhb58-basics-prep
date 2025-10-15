@@ -18,7 +18,7 @@ class TestCalculator(unittest.TestCase):
     @unittest.skip("Skipping bonus exercises for calculator")
     def test_bonuses(self):
         # Input validation
-        self.assertEqual(divide(5, 0), None, "Division by is not allowed")
+        self.assertEqual(divide(5, 0), None, "Division by 0 is not allowed")
         self.assertEqual(add("4", 0), None, "Cannot perform addition on strings")
         self.assertEqual(subtract("4", 0), None, "Cannot perform subtraction from strings")
         self.assertEqual(divide(5, 0), None, "Cannot perform division on strings")
